@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fake Location Control — Privacy Policy and Terms of Service</title>
-  <meta name="description" content="Privacy Policy and Terms of Service for Fake Location Control by Rectangles.">
+  <meta name="description" content="Privacy Policy and Terms of Service for Fake Location Control by Rectangles, including advertising and consent disclosures.">
   <style>
     :root { --ink:#17212b; --muted:#53616d; --accent:#1769e0; --line:#dbe3ea; --paper:#fff; --bg:#f3f6f9; }
     * { box-sizing:border-box; }
@@ -20,7 +20,6 @@
     .meta { color:var(--muted); }
     .notice { margin:24px 0; padding:16px 18px; border-left:4px solid var(--accent); background:#eef5ff; }
     a { color:var(--accent); }
-    code { background:#eef1f4; padding:.1em .3em; border-radius:4px; }
     footer { margin-top:42px; color:var(--muted); font-size:.92rem; }
   </style>
 </head>
@@ -29,51 +28,64 @@
   <article>
     <p class="eyebrow">Rectangles</p>
     <h1>Fake Location Control<br>Privacy Policy and Terms of Service</h1>
-    <p class="meta"><strong>Effective date:</strong> September 13, 2026<br><strong>Contact:</strong> <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a></p>
+    <p class="meta"><strong>Effective date:</strong> September 15, 2026<br><strong>Contact:</strong> <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a></p>
 
-    <div class="notice"><strong>Important:</strong> This document is a working publication draft prepared from the current app design. Rectangles should review and update it so every statement matches the exact production build, advertising/analytics configuration, business location, and applicable law before publishing it as the final legal policy.</div>
+    <div class="notice"><strong>Summary:</strong> Fake Location Control processes mock-location and related device data primarily on the device. The App also uses Google Mobile Ads SDK and Google User Messaging Platform (UMP) SDK for advertising, consent management, measurement, and fraud prevention. Where required, UMP displays the applicable published privacy message and lets you change your choices through the App’s <strong>Privacy settings</strong> option.</div>
 
     <h2 id="privacy">Privacy Policy</h2>
-    <p>This Privacy Policy explains how <strong>Rectangles</strong> (“Rectangles,” “we,” “us,” or “our”) handles information in connection with the <strong>Fake Location Control</strong> Android application (the “App”). By installing or using the App, you acknowledge the practices described here.</p>
+    <p>This Privacy Policy explains how <strong>Rectangles</strong> ("Rectangles," "we," "us," or "our") handles information in connection with the <strong>Fake Location Control</strong> Android application (the "App"). By installing or using the App, you acknowledge the practices described here. This page is intended to describe the current production configuration; it is not legal advice.</p>
 
-    <h3>1. Information the App accesses</h3>
-    <p>The App requests access to precise and approximate device location so it can display the device’s current position, center the map, calculate location-related values, and provide the location-control features selected by the user. When the user enables mock-location functionality, the App may provide selected or generated location values to Android’s mock-location framework.</p>
-    <p>The App may also access device orientation and motion-related sensor information, including the Android rotation-vector sensor, when the floating joystick’s device-direction display is enabled. This information is used to calculate and display a direction indicator.</p>
-    <p>The App may request permission to display over other apps when the user enables the floating joystick. This permission allows the joystick overlay to appear above other applications. The overlay permission is optional and is not required for ordinary map use.</p>
+    <h3>1. Information the App accesses and stores</h3>
+    <p>The App requests precise and approximate device location so it can display the device’s current position, center the map, calculate location-related values, and provide the location-control features selected by you. When you enable mock-location functionality, the App may provide selected or generated location values to Android’s mock-location framework.</p>
+    <p>The App may access device orientation and motion-related sensor information, including the Android rotation-vector sensor, when the floating joystick’s device-direction display is enabled. This information is used to calculate and display a direction indicator.</p>
+    <p>The App may request notification permission, foreground-service permissions, and permission to display over other apps when you enable the floating joystick. The overlay permission is optional and is not required for ordinary map use.</p>
+    <p>Settings such as selected coordinates, signal values, randomization preferences, joystick preferences, consent-related app state, and service state may be stored locally on the device. The App does not require a Rectangles account for ordinary use.</p>
 
-    <h3>2. How information is used</h3>
-    <p>Location, orientation, and sensor values are used to operate the App’s map, marker, joystick, randomization, direction, and mock-location features. Settings such as selected coordinates, signal values, randomization preferences, joystick preferences, and service state may be stored locally on the device so the App can restore its configuration and continue an intentionally enabled foreground service.</p>
+    <h3>2. How the App uses location and sensor information</h3>
+    <p>Location, orientation, and sensor values are used to operate the App’s map, marker, joystick, randomization, direction, and mock-location features. Based on the current App design, these feature values are intended to be processed on the device and passed to Android’s location framework when the relevant feature is enabled. Rectangles does not intentionally receive a server-side copy of those feature values through the ordinary operation of the App.</p>
 
-    <h3>3. Information sharing and sale</h3>
-    <p>Based on the current design, Rectangles does not sell personal information and does not operate a service that requires a user account. Location and sensor values are intended to be processed on the device and passed to Android’s location framework when the relevant feature is enabled. Rectangles does not intentionally receive a copy of those values through the App’s ordinary operation.</p>
-    <p>The App may open external pages, including its Google Play listing, when the user chooses an appropriate button. Those pages are operated by third parties and are governed by their own privacy policies. If advertising, analytics, crash reporting, cloud storage, or other third-party SDKs are added to the production build, this section and the disclosures below must be updated before publication to identify them accurately.</p>
+    <h3>3. Advertising and Google Mobile Ads SDK</h3>
+    <p>The App uses the Google Mobile Ads SDK to request and display Google-served advertising formats, which may include app-open, interstitial, rewarded, and native ads. Google and its service providers may automatically process information such as the device’s IP address, device and account identifiers including the Android advertising ID or app set ID where available, advertising and App interactions such as launches, taps, and video views, and diagnostic or performance information. These data may be used for advertising, analytics, measurement, security, and fraud prevention, subject to Google’s policies and the choices available in the applicable consent message.</p>
+    <p>Google may use an IP address to estimate a device’s general location for service, security, or advertising purposes. The App does not intentionally send the App’s selected mock coordinates or precise device-location readings to Rectangles’ own server. Google’s handling of information collected by its SDK is governed by Google’s policies and terms, including the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">How Google uses information from sites or apps that use its services</a>.</p>
+    <p>Advertising may be personalized or non-personalized depending on applicable law, your choices, Google’s consent signals, and the availability of advertising inventory. The App requests ads only after its UMP consent flow reports that ads may be requested; the Mobile Ads SDK and UMP signals determine the applicable ad treatment. If consent is not available or advertising is restricted, ads may be limited or unavailable.</p>
+    <p>For Google’s current technical description of Mobile Ads SDK data practices, see <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google Mobile Ads SDK data disclosure guidance</a>. Google’s advertising policies and implementation requirements are available through <a href="https://support.google.com/admob/answer/6128543" rel="noopener noreferrer">AdMob policies</a>.</p>
 
-    <h3>4. Permissions and user control</h3>
-    <p>You can control permissions through Android settings. You may deny or revoke location, notification, and overlay permissions, and you can stop the mock-location or floating-joystick services from within the App or Android system controls. Revoking a required permission may prevent the related feature from working.</p>
+    <h3>4. Consent, privacy choices, and withdrawal</h3>
+    <p>The App uses Google’s User Messaging Platform (UMP) SDK to request current consent information and display the applicable published privacy message, including European regulations messages and applicable United States state privacy messages, based on the user’s region and the configuration in the AdMob account.</p>
+    <p>The App’s separate first-install Welcome screen explains and links to this Privacy Policy and the Terms of Service. Accepting that screen does not replace Google’s UMP consent process. UMP may present an additional Google privacy message when required.</p>
+    <p>After UMP initialization, the App provides a <strong>Privacy settings</strong> option at the bottom of the main page. You can use it to reopen Google’s privacy-options form and change or withdraw applicable consent choices at any time. Google’s official UMP documentation is available at <a href="https://developers.google.com/admob/android/privacy" rel="noopener noreferrer">Set up UMP on Android</a> and <a href="https://developers.google.com/admob/android/privacy/gdpr" rel="noopener noreferrer">Google’s GDPR guidance for AdMob</a>.</p>
+    <p>Privacy choices may affect the availability, personalization, measurement, or type of ads shown. You can also manage Android advertising identifiers and related device permissions through Android settings. UMP’s stored consent signals are managed by Google’s SDK and may be retained or updated according to Google’s policies and applicable requirements.</p>
 
-    <h3>5. Retention and deletion</h3>
-    <p>App preferences stored locally remain on the device until they are changed, reset, the App’s data is cleared, or the App is uninstalled. Because the current design does not require a Rectangles account or cloud profile, Rectangles does not provide a separate server-side account deletion process for ordinary App use. Android system logs and data created by other applications or services are controlled by Android and their respective operators.</p>
+    <h3>5. United States privacy choices</h3>
+    <p>Where applicable, UMP may present the United States state privacy message configured in AdMob. Depending on your location and applicable law, you may have rights relating to access, correction, deletion, opting out of sale or sharing, targeted advertising, or certain profiling. The available choices and legal rights can vary by state. Use the App’s Privacy settings option to review the choices made available by Google’s UMP flow. Google’s technical guidance for US state signals is available at <a href="https://developers.google.com/admob/android/next-gen/privacy/us-states" rel="noopener noreferrer">US state privacy regulations for Android</a>.</p>
 
-    <h3>6. Children’s privacy</h3>
-    <p>The App is not directed specifically to children. We do not knowingly collect personal information from children through a Rectangles account or online form. If you believe a child has provided personal information to Rectangles, contact us at <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a>.</p>
+    <h3>6. Sharing, service providers, and external links</h3>
+    <p>Rectangles does not sell the location and sensor values generated by the App and does not operate a server-side user account system for ordinary App use. The Google Mobile Ads SDK and UMP SDK share or process the information described above with Google and relevant service providers as necessary to provide advertising, consent management, measurement, security, and fraud prevention. Google may use independent advertising technology providers according to the choices and disclosures in the applicable UMP message.</p>
+    <p>The App may open Google Play, this policy page, or other external pages when you choose an appropriate button. External services are operated by third parties and are governed by their own privacy policies and terms. The App may also display map data supplied by third-party map providers; those providers may process requests according to their own terms.</p>
 
-    <h3>7. Security</h3>
-    <p>We use reasonable measures appropriate to the App’s design to limit unnecessary data handling. No device, operating system, or transmission method can be guaranteed completely secure. You are responsible for protecting your device and reviewing the permissions granted to the App.</p>
+    <h3>7. Permissions and user control</h3>
+    <p>You can control permissions through Android settings. You may deny or revoke location, notification, and overlay permissions, and you can stop the mock-location or floating-joystick services from within the App or Android system controls. Revoking a required permission may prevent the related feature from working. You can also reset the App’s local data or uninstall the App to remove locally stored App preferences, subject to Android and third-party SDK storage managed independently by those providers.</p>
 
-    <h3>8. Changes to this Privacy Policy</h3>
-    <p>We may update this Privacy Policy when the App, its permissions, or applicable requirements change. The updated version will show a revised effective date. Continued use of the App after an update means you acknowledge the revised policy.</p>
+    <h3>8. Retention and deletion</h3>
+    <p>App preferences stored locally remain on the device until they are changed, reset, the App’s data is cleared, or the App is uninstalled. Rectangles does not provide a separate server-side account deletion process for ordinary App use because the App does not require a Rectangles account. Data processed by Google Mobile Ads or UMP is retained and deleted according to Google’s policies, systems, and applicable legal requirements. For Google account and advertising privacy controls, review <a href="https://myadcenter.google.com/" rel="noopener noreferrer">Google My Ad Center</a> and the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
 
-    <h3>9. Contact</h3>
-    <p>Questions about privacy can be sent to <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a>.</p>
+    <h3>9. Children’s privacy</h3>
+    <p>The App is not directed specifically to children and is intended for users who can lawfully use Android mock-location and developer settings. We do not knowingly collect personal information from children through a Rectangles account or online form. If you believe a child has provided personal information to Rectangles, contact us at <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a>. Google’s UMP and advertising treatment may also depend on age-related settings and applicable law.</p>
+
+    <h3>10. Security</h3>
+    <p>We use reasonable measures appropriate to the App’s design to limit unnecessary data handling. Google states that data collected by its Mobile Ads SDK is encrypted in transit using TLS. No device, operating system, transmission method, or third-party service can be guaranteed completely secure. You are responsible for protecting your device and reviewing the permissions granted to the App.</p>
+
+    <h3>11. Changes and contact</h3>
+    <p>We may update this Privacy Policy when the App, its permissions, advertising or consent configuration, or applicable requirements change. The updated version will show a revised effective date. Questions about privacy can be sent to <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a>.</p>
 
     <h2 id="terms">Terms of Service</h2>
-    <p>These Terms of Service (“Terms”) govern your use of Fake Location Control. The App is provided by Rectangles. By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>
+    <p>These Terms of Service ("Terms") govern your use of Fake Location Control. The App is provided by Rectangles. By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>
 
     <h3>1. Eligibility and lawful use</h3>
     <p>You may use the App only where permitted by applicable law and by the rules of the device, platform, game, service, employer, school, network, or other system with which you use it. You are solely responsible for obtaining permission to use mock locations and for complying with all third-party terms.</p>
 
     <h3>2. Intended functionality</h3>
-    <p>The App provides tools for selecting, displaying, and supplying test or simulated locations through Android’s mock-location mechanisms. It may include map selection, coordinate search, accuracy and altitude controls, randomization, manual joystick movement, a floating joystick, and direction visualization. Availability and behavior may vary by Android version, device manufacturer, location provider, and other applications.</p>
+    <p>The App provides tools for selecting, displaying, and supplying test or simulated locations through Android’s mock-location mechanisms. It may include map selection, coordinate search, accuracy and altitude controls, randomization, manual joystick movement, a floating joystick, direction visualization, and advertising-supported features. Availability and behavior may vary by Android version, device manufacturer, location provider, advertising availability, consent choices, and other applications.</p>
 
     <h3>3. Prohibited uses</h3>
     <p>You must not use the App to commit fraud, deceive another person or service, evade lawful tracking or safety controls, interfere with emergency services, violate another party’s privacy, disrupt networks or devices, or violate the rules of a game, application, platform, employer, school, or service. You must not use the App in a way that creates a safety risk or causes another system to make a consequential decision based on a simulated location without authorization.</p>
@@ -81,36 +93,31 @@
     <h3>4. User responsibility and risks</h3>
     <p>You are responsible for every location value generated or supplied using the App and for checking whether mock locations are active before relying on any displayed position. Simulated locations can affect navigation, emergency response, access controls, games, financial or commercial services, and other software. Do not rely on a simulated location for emergency calls, personal safety, medical care, legal compliance, or any situation requiring an accurate physical position.</p>
 
-    <h3>5. Permissions and services</h3>
+    <h3>5. Advertising and third-party services</h3>
+    <p>The App may display advertisements supplied by Google Mobile Ads and may use Google UMP to present consent and privacy-choice messages. Ads, consent forms, privacy options, availability, and measurement are controlled partly by Google and may vary by region, device, user choices, and inventory. Your use of Google services is also subject to Google’s applicable terms and policies, including the <a href="https://policies.google.com/terms" rel="noopener noreferrer">Google Terms of Service</a> and <a href="https://support.google.com/admob/answer/6128543" rel="noopener noreferrer">AdMob policies</a>.</p>
+
+    <h3>6. Permissions and services</h3>
     <p>Some features require Android permissions, Developer options configuration, a selected mock-location provider, location services, notifications, or the display-over-other-apps permission. You authorize the App to use those permissions only when you enable them. You may stop services and revoke permissions at any time, subject to Android’s controls.</p>
 
-    <h3>6. Intellectual property</h3>
+    <h3>7. Intellectual property</h3>
     <p>The App, its software, user interface, branding, graphics, and documentation are owned by or licensed to Rectangles and are protected by applicable intellectual-property laws. Except for the limited right to use the App on a device you control in accordance with these Terms, no ownership rights are transferred to you.</p>
 
-    <h3>7. Third-party services</h3>
-    <p>The App may interact with Android system services, map-data providers, Google Play, web browsers, or other third-party services. Third-party services are controlled by their respective providers, and Rectangles is not responsible for their availability, content, policies, or decisions. Your use of those services remains subject to their terms.</p>
-
     <h3>8. Disclaimer of warranties</h3>
-    <p>To the maximum extent permitted by law, the App is provided on an “as is” and “as available” basis, without warranties of any kind, whether express, implied, or statutory. Rectangles does not warrant that the App will be uninterrupted, error-free, compatible with every device, accepted by any third-party service, or capable of producing a particular location result.</p>
+    <p>To the maximum extent permitted by law, the App is provided on an “as is” and “as available” basis, without warranties of any kind, whether express, implied, or statutory. Rectangles does not warrant that the App, ads, consent forms, or third-party services will be uninterrupted, error-free, compatible with every device, accepted by any third-party service, or capable of producing a particular location result.</p>
 
     <h3>9. Limitation of liability</h3>
     <p>To the maximum extent permitted by law, Rectangles will not be liable for indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, access, accounts, revenue, profits, reputation, or device functionality arising from or related to the App or these Terms. Nothing in these Terms excludes liability that cannot legally be excluded.</p>
 
-    <h3>10. Indemnity</h3>
-    <p>To the extent permitted by law, you agree to defend, indemnify, and hold harmless Rectangles and its contributors from claims, losses, liabilities, costs, and expenses arising from your misuse of the App, your violation of these Terms, your violation of law or third-party rules, or your use of a simulated location.</p>
+    <h3>10. Indemnity, suspension, and termination</h3>
+    <p>To the extent permitted by law, you agree to defend, indemnify, and hold harmless Rectangles and its contributors from claims, losses, liabilities, costs, and expenses arising from your misuse of the App, your violation of these Terms, your violation of law or third-party rules, or your use of a simulated location. You may stop using the App at any time by uninstalling it and revoking its permissions. Rectangles may discontinue or restrict the App or any feature where reasonably necessary for security, maintenance, legal compliance, or protection of users and third parties.</p>
 
-    <h3>11. Suspension and termination</h3>
-    <p>You may stop using the App at any time by uninstalling it and revoking its permissions. Rectangles may discontinue or restrict the App or any feature where reasonably necessary for security, maintenance, legal compliance, or protection of users and third parties.</p>
-
-    <h3>12. Changes to these Terms</h3>
-    <p>Rectangles may update these Terms when the App or applicable requirements change. The revised version will show a new effective date. Your continued use of the App after an update constitutes acceptance of the revised Terms.</p>
-
-    <h3>13. Contact</h3>
-    <p>Questions about these Terms can be sent to <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a>.</p>
+    <h3>11. Changes and contact</h3>
+    <p>Rectangles may update these Terms when the App, advertising configuration, or applicable requirements change. The revised version will show a new effective date. Your continued use of the App after an update constitutes acceptance of the revised Terms. Questions about these Terms can be sent to <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a>.</p>
 
     <footer>
       <p><strong>Developer:</strong> Rectangles<br><strong>Application:</strong> Fake Location Control<br><strong>Email:</strong> <a href="mailto:rectangles62@gmail.com">rectangles62@gmail.com</a></p>
-      <p>This page contains both the Privacy Policy and Terms of Service for convenience.</p>
+      <p>This page contains both the Privacy Policy and Terms of Service.</p>
+      <p><strong>Official references:</strong> <a href="https://developers.google.com/admob/android/privacy" rel="noopener noreferrer">Google UMP for Android</a> · <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google Mobile Ads data disclosure</a> · <a href="https://support.google.com/googleplay/android-developer/answer/10787469" rel="noopener noreferrer">Google Play Data safety</a></p>
     </footer>
   </article>
 </main>
